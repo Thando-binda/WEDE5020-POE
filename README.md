@@ -157,6 +157,40 @@ Interactive elements using CSS pseudo-classes.
 Media queries to ensure the website adapts seamlessly to mobile, tablet, and desktop screen sizes.
 Screenshots of the Desktop View, Tablet View, Mobile View are in the images folder.
 
+The Village Bakery - Part 3
+A multi-page website for The Village Bakery (Fordsburg and Lenasia, Johannesburg).
+
+**Live site:** https://your-site-name.netlify.app  *(update after deploying)
+
+
+general changes:
+- Renamed pages to lowercase, no spaces (`about.html`, `contact.html`) so links work on Netlify/GitHub Pages.
+- Replaced all `c:\Users\Student\...` image paths with relative `Image/...` paths.
+- Fixed invalid HTML: removed `<p>` wrappers around `<div>`/headings and the unclosed `<div class="content-card"` tag.
+- Added `lang=" en"`, `charset,` and `viewport` meta tags; used `<main>` landmarks.
+- Unique, descriptive `<title>` and meta description on every page.
+- Exactly one `<h1>` per page with a logical heading order.
+- Descriptive `alt` text on all images; iframe `title` attributes on maps.
+- Canonical and Open Graph tags; consistent lowercase internal links; current page highlighted in nav.
+- Added `robots.txt` and `sitemap.xml`.
+
+forms:
+- Enquiry form: added Enquiry Type dropdown (General, Bulk Order, Sponsorship, Volunteering), `required`, `minlength`, and a 10-digit phone `pattern`.
+- Contact form: added name and email fields; all fields required.
+- JavaScript validation with inline error messages (name length, email format, phone digits, message length).
+- AJAX: forms submit with `fetch()` (POST to a dummy API) with no page reload and show a success/failure message.
+- "Buy now" buttons pre-fill the enquiry form with the chosen item.
+
+Js and Css:
+- Live product search filter (Products).
+- Lightbox image gallery with Esc/click-outside to close (Products).
+- Accordions for Mission and Vision (About).
+- New `CSS/enhancements.css` (hover effects, fade-in animation, focus outlines, responsive images, reduced-motion support).
+- All JavaScript is in `JS/script.js`.
+
+Deployed on Netlify by dragging the project folder into the dashboard. After deploying, replace `your-site-name.netlify.app` in `robots.txt`, `sitemap.xml`, the canonical tags and this README.oject upadate (part3)
+
+
 References list:
 Bakerias, 2025. The Village Bakery. [Online] Available at:<  https://www.bakerias.com/ZA/Fordsburg/187533444702888/The-Village-Bakery  > [Accessed: 13 August 2026].
 Fournos, 2026. Find Us. [Online] Available at: < https://www.fournos.co.za/find-us/  > [Accessed 13 August 2026].

@@ -160,7 +160,7 @@ Screenshots of the Desktop View, Tablet View, Mobile View are in the images fold
 The Village Bakery - Part 3
 A multi-page website for The Village Bakery (Fordsburg and Lenasia, Johannesburg).
 
-**Live site:** https://your-site-name.netlify.app  *(update after deploying)
+**Live site:** https://splendorous-meerkat-4fa324.netlify.app/
 
 
 general changes:
